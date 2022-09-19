@@ -1,0 +1,91 @@
+body{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color:#ed9338;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-left: 30%;
+    width: 500px;
+}
+.principal{
+    width: 150px;
+    display: inline-block;
+    padding-bottom: 20px;
+    background-color: black;
+    border-radius: 10px;
+}
+.principal a{
+    float: left;
+    margin: 10px 0 0 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.principal:hover{
+    background-color: blue;
+    color: black;
+    
+}
+fieldset{
+    border:1px solid#ed9338;
+}
+
+.logar input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+ 
+}
+.botao input{
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgb(0, 0, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+.botao input:hover{
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*====================CADASTRAR============*/
+.cadastro{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cadastro input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+.fe-ma{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.interesses{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.observacoes input{
+    width: 80px;
+    height: 35px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgb(0, 0, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+.observacoes input:hover{
+    background-color: #ed9338;
+    color: black ;
+
+}
